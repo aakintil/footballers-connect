@@ -11,28 +11,41 @@
   <link rel="stylesheet" href="app.css">
 
   <title>Footballers Connect</title>
+  <script>  document.getElementsByTagName('html')[0].className += ' fade-out';</script>
 </head>
 <body>
-
+  <script>document.body.className += ' fade-out';</script>
   <div class="container">
+    <div class="background">
+
+    </div>
     <!--  logo row -->
     <div class="row">
-      <div class="col-md-1 offset-md-3">
-        logo
+      <div class="logo-container col-md-2 offset-md-2">
+        <img class="logo" src="assets/logo.png" alt="">
       </div>
-      <div class="col-md-3 offset-md-1">
-        logotype
+      <div class="col-md-6 offset-md-1 d-flex align-items-center">
+        <img class="logotype" src="assets/logotype.png" alt="">
       </div>
     </div>
 
     <!--  date row -->
     <div class="row">
       <div class="col-md-4">
-        time
-        <div id="countdown">
+        <div class="row">
+          <div class="col-md-6 d-flex flex-column align-items-center justify-content-start">
+            <p id="days"></p>
+            <p class="days-label">days</p>
+          </div>
+
+          <div class="col-md-6 d-flex flex-column align-items-center justify-content-start">
+            <p id="hours"></p>
+            <p class="hours-labels">hours</p>
+          </div>
         </div>
+
       </div>
-      <div class="col-md-6 offset-md-1">
+      <div class="details col-md-7 offset-md-1">
         10:00 - December 15, 2018 Conference Hall, Federal Neuro Psychiatric Hospital, Yaba, Lagos
       </div>
     </div>
@@ -44,14 +57,14 @@
             <div class="card-header" id="headingOne">
               <h5 class="mb-0">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Collapsible Group Item #1
+                  What is Footballers Connect?
                 </button>
               </h5>
             </div>
 
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                Bringing together key individuals in the football world. A platform enabling and fostering connections between footballers, from grassroots to professional levels. A place to discuss, share ideas, and learn the ropes from the professionals in the industry. Building the foundation for a culture of mentorship and motivation in the football industry. Information that no one shares about how to make it through trials, how the language barrier affects chances, weather differences, and other pertinent factors.
               </div>
             </div>
           </div>
@@ -59,13 +72,13 @@
             <div class="card-header" id="headingTwo">
               <h5 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Collapsible Group Item #2
+                  What is the event?
                 </button>
               </h5>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
               <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                At the heart of Footballers Connect 2018 is an open unconference-style event in which everyone who attends is welcome to contribute on any relevant topic. During these sessions, participants are free to interact, offer thoughts and experience, and share ideas and questions. These unconference sessions are also augmented with a series of presentations from current professionals, ex-internationals, in-the-field administrators, panel debates, and networking opportunities.
               </div>
             </div>
           </div>
@@ -73,7 +86,7 @@
             <div class="card-header" id="headingThree">
               <h5 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Collapsible Group Item #3
+                  Who are the keynote speakers?
                 </button>
               </h5>
             </div>
@@ -83,6 +96,38 @@
               </div>
             </div>
           </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Who are our partners?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  More questions about the event?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>
