@@ -24,7 +24,7 @@ setInterval(function () {
 
   // format countdown string + set tag value
   _days.innerHTML = days;
-  _hours.innerHTML = hours; 
+  _hours.innerHTML = hours;
   // '<div class="col-md-6"></div><p class="days">' + days +  ' <p class="days-label">Days</p></p></div><div class="col-md-6"><p class="hours">' + hours + ' <p class="hours-labels">Hours</p></p></div>'
   // '<p class="days">' + days +  ' <p class="days-label">Days</p></p> <p class="hours">' + hours + ' <p class="hours-labels">Hours</p></p>'
 
@@ -36,5 +36,9 @@ $(function() {
 
   setTimeout(function() {
     $('body').removeClass('fade-out');
-  }, 1750)
+  }, 1750);
+
+  $('#accordionExample').on('.collapse', function () {
+    // do something…
+  })
 });

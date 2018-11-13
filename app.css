@@ -58,3 +58,74 @@ body.fade-out {
   font-size: 42px;
   font-weight: 300;
 }
+
+.card {
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+}
+
+.card-header {
+  padding-left: 0;
+}
+
+.card-header button {
+  padding-left: 0;
+  width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: white;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.card-header button:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.card-body {
+  padding: 0;
+  line-height: 32px;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.btn.btn-link.collapsed {
+  opacity: 0.8;
+}
+
+.speaker {
+  margin-bottom: 24px;
+}
+
+.speaker-image {
+  height: 72px;
+  width: 72px;
+  border-radius: 72px;
+  border: 2.5px solid white;
+}
+
+.speaker-label {
+  margin-bottom: 0;
+  margin-left: 16px;
+  font-weight: 500;
+}
+
+.speaker-image.taribo {
+  background: url('assets/speakers/taribo.jpg') no-repeat center center;
+  background-size: 110%;
+}
+
+.speaker-image.dosu {
+  background: url('assets/speakers/dosu.jpg') no-repeat center center;
+  background-size: 230%;
+}
+
+/* .card-header:not(.collapsed) {
+background:#ee6666;
+}
+
+.card-header.collapsed {
+background:blue !important;
+} */
