@@ -85,7 +85,7 @@ body.fade-out {
 }
 
 .card-body {
-  padding: 0;
+  padding: 0 0 0 16px;
   line-height: 32px;
   font-size: 16px;
   margin-bottom: 32px;
@@ -102,8 +102,7 @@ body.fade-out {
 .speaker-image {
   height: 72px;
   width: 72px;
-  border-radius: 72px;
-  border: 2.5px solid white;
+  background-size: 100% !important;
 }
 
 .speaker-label {
@@ -113,13 +112,31 @@ body.fade-out {
 }
 
 .speaker-image.taribo {
-  background: url('assets/speakers/taribo.jpg') no-repeat center center;
-  background-size: 110%;
+  background: url('assets/speakers/taribo.png') no-repeat center center;
 }
 
 .speaker-image.dosu {
-  background: url('assets/speakers/dosu.jpg') no-repeat center center;
-  background-size: 230%;
+  background: url('assets/speakers/dosu.png') no-repeat center center;
+}
+
+.speaker-image.ayodele {
+  background: url('assets/speakers/ayodele.png') no-repeat top center;
+}
+
+.speaker-image.kashimawo {
+  background: url('assets/speakers/kashimawo.png') no-repeat center center;
+}
+
+.speaker-image.alexander {
+  background: url('assets/speakers/alexander.png') no-repeat center center;
+}
+
+.speaker-image.sani {
+  background: url('assets/speakers/sani.png') no-repeat center center;
+}
+
+.speaker-image.sunday {
+  background: url('assets/speakers/sunday.png') no-repeat center center;
 }
 
 /* .card-header:not(.collapsed) {
