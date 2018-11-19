@@ -143,6 +143,11 @@ body.fade-out {
   background: url('assets/speakers/edafe.png') no-repeat center center;
 }
 
+/*  partners */
+.speaker-image.oyizz {
+  background: url('assets/partners/oyizz.png') no-repeat center center;
+}
+
 /* .card-header:not(.collapsed) {
 background:#ee6666;
 }
