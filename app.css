@@ -100,8 +100,8 @@ body.fade-out {
 }
 
 .speaker-image {
-  height: 72px;
-  width: 72px;
+  min-height: 72px;
+  min-width: 72px;
   background-size: 100% !important;
 }
 
@@ -167,6 +167,10 @@ background:blue !important;
 
 @media (max-width: 800px ) {
 
+  .speaker-label {
+    margin-left: 0;
+  }
+
   .card-header button {
     font-size: 16px;
   }
@@ -183,6 +187,7 @@ background:blue !important;
   .speaker-image {
     min-height: 56px !important;
     min-width: 56px !important;
+    margin-right: 24px;
   }
 
   .card-header,
