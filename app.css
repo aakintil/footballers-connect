@@ -156,6 +156,18 @@ body.fade-out {
   background: url('assets/partners/lsfa.png') no-repeat center center;
 }
 
+.speaker-image.bet9ja {
+  background: url('assets/partners/bet9ja.png') no-repeat center center;
+}
+
+.speaker-image.gokada {
+  background: url('assets/partners/gokada.png') no-repeat center center;
+}
+
+.speaker-image.volt {
+  background: url('assets/partners/volt.png') no-repeat center center;
+}
+
 /* .card-header:not(.collapsed) {
 background:#ee6666;
 }
